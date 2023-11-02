@@ -1,7 +1,8 @@
 # Bright-Boost
-# ShopOnline
 
-Welcome to ShopOnline, a web-based platform designed for buying and selling items through the exciting and interactive English Auction strategy, as popularized by platforms like eBay and real estate auctions. This README provides an overview of the key components and functionalities that comprise ShopOnline, emphasizing the use of XMLHttpRequest for efficient client/server communication.
+Welcome to ShopOnline, a web-based platform or mobile application that simplifies the enrollment process, offers students and tutors a more structured and efficient way to interact, and optimizes program management.
+![image](https://github.com/Saad-1963/Bright-Boost/assets/144372364/c191b8a2-b2ab-4401-bdd7-809fc058463d)
+.
 ## overview
 #### Registration: 
 Users can create their accounts, providing necessary personal information, and establish a secure online presence within the platform.
