@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/table.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/dialog_box.css" />
+  </head>
+
+  <body>
+    <div class="wrapper d-flex justify-center flex-dir-col">
+      <header class="header d-flex items-center justify-spc-btw">
+        <h2 class="logo text-white">Bright Boost</h2>
+        <ul class="menu d-flex">
+            <li><a href="Answer.php">Questions</a></li>
+            <li><a href="session_tutor.html">Sessions</a></li>
+            <li><a href="logout.php">Log Out</a></li>
+          
+
+        </ul>
+      </header>
+
+      <div class="content m-auto">
+        <!-- <div class="d-flex items-center justify-spc-btw">
+          <h3>Session Schedules</h3>
+          <button class="purple-btn" id="open-dialog">Add Session</button>
+        </div> -->
+
+        <table>
+          <thead>
+            <tr>
+              <th>Subject Areas</th>
+              <th>Expertise Required</th>
+              <th>Number of students</th>
+              <th>Time and date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Math</td>
+              <td>Intermediate</td>
+              <td>5</td>
+              <td>2023-20-10</td>
+            </tr>
+            <tr>
+              <td>Math</td>
+              <td>Intermediate</td>
+              <td>5</td>
+              <td>2023-20-10</td>
+            </tr>
+            <tr>
+              <td>Math</td>
+              <td>Intermediate</td>
+              <td>5</td>
+              <td>2023-20-10</td>
+            </tr>
+            <tr>
+              <td>Math</td>
+              <td>Intermediate</td>
+              <td>5</td>
+              <td>2023-20-10</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+
+        <div class="table-footer">
+          <button class="mr-30">&lt; Previous</button>
+          <button>Next &gt;</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add session dialog -->
+    <div class="overlay" id="dialog-overlay">
+      <div class="dialog-box">
+        <h2>Add session</h2>
+
+        <form class="form d-flex flex-dir-col mt-10">
+          <div class="form-input d-flex flex-dir-col items-start">
+            <label for="subject_area">Subject Areas</label>
+            <input
+              type="text"
+              id="subject_area"
+              name="subject_area"
+              placeholder="subject Areas"
+              class="mt-10"
+            />
+          </div>
+
+          <div class="form-input d-flex flex-dir-col items-start">
+            <label for="expertise">Expertise required</label>
+            <input
+              type="text"
+              id="expertise"
+              name="expertise"
+              placeholder="Expertise required"
+              class="mt-10"
+            />
+          </div>
+
+          <div class="form-input d-flex flex-dir-col items-start">
+            <label for="time_date">Time & date</label>
+            <input
+              type="text"
+              id="time_date"
+              name="time_date"
+              placeholder="Time & date"
+              class="mt-10"
+            />
+          </div>
+
+          <div class="d-flex mt-20 self-end">
+            <button class="mr-30" id="close-dialog">Close</button>
+            <button class="login-button purple-btn" type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    document
+      .getElementById("open-dialog")
+      .addEventListener("click", function () {
+        document.getElementById("dialog-overlay").style.display = "flex";
+      });
+
+    document
+      .getElementById("close-dialog")
+      .addEventListener("click", function () {
+        document.getElementById("dialog-overlay").style.display = "none";
+      });
+  </script>
+</html>

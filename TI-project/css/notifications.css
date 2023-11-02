@@ -1,0 +1,34 @@
+.notifications-container {
+    margin: 20px auto;
+    border: 1px solid gray;
+}
+
+.notifications-container .item {
+    flex: 4;
+    padding: 20px;
+    height: 400px;
+}
+
+.notifications-container .item:first-child {
+    border-right: 1px solid gray;
+    flex: 1;
+}
+
+.side-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu  li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: rgb(102, 62, 204);
+}
+
+/* .side-menu  a {
+    text-decoration: none;
+    color: #fff;
+} */

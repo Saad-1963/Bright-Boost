@@ -1,0 +1,8 @@
+.profile-container form {
+
+    width: 300px;
+}
+
+.profile-container input[type='file'] {
+    display: none;
+}

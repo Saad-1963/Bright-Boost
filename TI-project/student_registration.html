@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <div class="login-page-container d-flex">
+      <!-- Give background image or display logo at center -->
+      <div class="form-section d-flex items-center">
+        <div class="login-form d-flex flex-dir-col">
+          <h2>Welcome to Bright Boost</h2>
+          <p>Fill out fields to create your new account</p>
+
+          <form action="student_registration.php" method="post" class="form d-flex flex-dir-col mt-10">
+
+
+            <div class="form-input d-flex flex-dir-col">
+              <label for="first_name">First Name</label>
+              <input
+              type="text" id="first_name" name="first_name" required
+                placeholder="Enter name"
+                class="mt-10"
+              />
+            </div>
+
+            <div class="form-input d-flex flex-dir-col">
+                <label for="last_name">First Name</label>
+                <input
+                type="text" id="last_name" name="last_name" required
+                  placeholder="Enter Last name"
+                  class="mt-10"
+                />
+              </div>
+
+            <div class="form-input d-flex flex-dir-col">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Enter email"
+                class="mt-10"
+              />
+            </div>
+
+            <div class="form-input d-flex flex-dir-col">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                placeholder="Enter password"
+                class="mt-10"
+              />
+            </div>
+
+
+            <input class="login-button purple-btn" type="submit" value="Register">
+          </form>
+          <a href="./student_login.html" class="mt-10 self-center"
+            >Already have an account? Login</a
+          >
+        </div>
+      </div>
+      <div class="image-section d-flex items-center justify-center"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.charts-container {
+    margin: 20px auto;
+    border: 1px solid gray;
+}
+
+.charts-container .item {
+    flex: 1;
+    padding: 20px;
+    height: 400px;
+}
+
+.charts-container .item:first-child {
+    border-right: 1px solid gray;
+}

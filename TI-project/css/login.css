@@ -1,0 +1,37 @@
+.login-page-container {
+    height: inherit;
+}
+
+.login-page-container .image-section {  
+    flex: 3;
+    background-image: url('../assets/school-children.jpg'); /* Replace 'your-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(102, 62, 204 , 1);
+    background-blend-mode: overlay;
+    
+}
+
+.login-page-container .form-section {
+    background-color: #fff;
+    flex: 2;
+}
+
+.login-form {
+    padding: 0px 15%;
+}
+
+.login-form h2 {
+    margin-bottom: 30px;
+}
+
+.login-button {
+    margin: 20px 0px;
+    align-self: end;
+}
+
+@media only screen and (max-width: 992px) {
+    .login-page-container .image-section {
+        display: none;
+    }
+}

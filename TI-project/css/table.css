@@ -1,0 +1,40 @@
+
+/* Table CSS */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    border-left: 1px solid #000;
+}
+
+th {
+    background-color: #d3d3d3;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+tr:nth-child(odd) {
+    background-color:#f2f2f2 ;
+}
+
+/* Table CSS */
+
+.table-footer {
+    text-align: end;
+}
+
+.table-footer button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}

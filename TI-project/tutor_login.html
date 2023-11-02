@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <div class="login-page-container d-flex">
+      <!-- Give background image or display logo at center -->
+      <div class="image-section d-flex items-center justify-center"></div>
+
+      <div class="form-section d-flex items-center">
+        <div class="login-form d-flex flex-dir-col">
+          <h2>Welcome to Bright Boost</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat
+          </p>
+
+          <form class="form d-flex flex-dir-col mt-10" action="tutor_login.php" method="post">
+
+            <div class="form-input d-flex flex-dir-col">
+              <label for="email">Email</label>
+              <input
+              type="email" id="email" name="email" required
+                placeholder="Enter email"
+                class="mt-10"
+              />
+            </div>
+
+            <div class="form-input d-flex flex-dir-col">
+              <label for="password">Password</label>
+              <input
+              type="password" id="password" name="password" required
+                placeholder="Enter password"
+                class="mt-10"
+              />
+            </div>
+
+
+            <input class="login-button purple-btn" type="submit" value="Log In">
+          </form>
+          <a href="tutor_registration.html" class="mt-10 self-center"
+            >Create new account</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
+

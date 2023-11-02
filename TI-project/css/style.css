@@ -1,0 +1,127 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.wrapper .content {
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-spc-btw {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: start;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-end {
+  align-self: end;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.text-white {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="select"],
+textarea,
+select {
+  border: 1px solid rgb(122, 122, 123);
+  padding: 12px 5px;
+  border-radius: 4px;
+  width: 100%;
+  outline: none;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="select"],
+select {
+  height: 35px;
+} */
+.form-input {
+  margin: 10px 0;
+}
+.btn {
+  padding: 5px 15px;
+  outline: none;
+}
+.purple-btn {
+  background-color: rgb(102, 62, 204);
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid rgb(117, 65, 250);
+}
+
+@media only screen and (max-width: 992px) {
+  h2 {
+    font-size: 18px;
+  }
+}

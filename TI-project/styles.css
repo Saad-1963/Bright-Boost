@@ -1,0 +1,112 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+form {
+    width: 300px; /* Set the form width */
+    margin: 0 auto; /* Center the form horizontally */
+    text-align: left; /* Left-align form fields */
+}
+
+label {
+    display: block; /* Display labels as block elements for stacking */
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"], /* Use lowercase for input types */
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:rgb(102, 62, 204);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(73, 19, 209);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(63, 30, 145);;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Style for the navigation bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0; /* Increase the top and bottom padding to adjust the height */
+    background-color: rgb(102, 62, 204); /* Change the background color as needed */
+    text-align: center; /* Center-align the navigation elements */
+}
+
+/* Style for navigation bar links */
+ul.navbar li {
+    display: inline; /* Display the list items horizontally */
+}
+
+ul.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust the padding for the navigation links */
+    line-height: 30px; /* Increase the line height to center the text vertically */
+}
+
+ul.navbar li a:hover {
+    background-color: rgb(91, 54, 185);; /* Change the background color for hover effect */
+}
+
+
+
