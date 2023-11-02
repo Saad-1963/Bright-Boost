@@ -96,38 +96,43 @@ VALUES ('abc', 'def', 'abc@abc.com', '12345');
 
 
 ```
-
-
-
 ## Demo
 #### Landing Page
 
 ![App Screenshot](https://github.com/Saad-1963/Bright-Boost/blob/9049d94a08815c5f1dc639fb36c8b382bf8271ce/index.JPG)
 
 #### User Registration
-Register a new customer account by providing your name, Surname, email address and password.
+Register a new STudent or Tutor account by providing your name, Surname, email address and password.
 
-![App Screenshot](https://github.com/Saad-1963/project2/blob/daae2dcb1305f20987d0b68f64c689e972f42c65/register.JPG)
+![App Screenshot](https://github.com/Saad-1963/Bright-Boost/blob/ab7832a0aff45b415ce617a5c50de7e7668c6c6f/registration.JPG)
 
 #### Login
-Log in using your email address and password to access the List of Auctions
+Log in using your email address and password
 
-![App Screenshot](https://github.com/Saad-1963/project2/blob/daae2dcb1305f20987d0b68f64c689e972f42c65/pass.JPG)
+![App Screenshot](https://github.com/Saad-1963/Bright-Boost/blob/ab7832a0aff45b415ce617a5c50de7e7668c6c6f/login.JPG)
 
-####  Listing
-After logging in, you can post anything for auctions by providing details such as item name, Category, Duration, Start Price, and Reserve Price.
+###  Admin
+####  Assign Course
+After logging in, admin can assign course to tutors.
 
-![App Screenshot](https://github.com/Saad-1963/project2/blob/daae2dcb1305f20987d0b68f64c689e972f42c65/listing.JPG)
+![App Screenshot](https://github.com/Saad-1963/Bright-Boost/blob/ab7832a0aff45b415ce617a5c50de7e7668c6c6f/admin%20add%20course.JPG)
+
+####  Student
+####  Enroll Course
+After logging in, student can Enroll in courses.
+
+![App Screenshot](https://github.com/Saad-1963/Bright-Boost/blob/ab7832a0aff45b415ce617a5c50de7e7668c6c6f/course%20enrollment.JPG)
 
 
-####  Biding
-After logging in, you can check auctions also you can buy something from auctions and can place you bid.
+#### Ask Question
+Student can ask Question Related to courses he erolled and also see the answers given by tutors.
 
-![App Screenshot](https://github.com/Saad-1963/project2/blob/daae2dcb1305f20987d0b68f64c689e972f42c65/biding%20page.JPG)
+![App Screenshot](https://github.com/Saad-1963/Bright-Boost/blob/ab7832a0aff45b415ce617a5c50de7e7668c6c6f/ask%20Question.JPG)
 
+####  Tutor
+####  Answer Questions
+Tutor can answer the question related to his courses.
 
-#### Maintenance
-Access the Maintenance page change the status of Expired auction Also generate report of Sold and Fialed auctions.
+![App Screenshot](https://github.com/Saad-1963/Bright-Boost/blob/ab7832a0aff45b415ce617a5c50de7e7668c6c6f/answer%20question.JPG)
 
-![App Screenshot](https://github.com/Saad-1963/project2/blob/daae2dcb1305f20987d0b68f64c689e972f42c65/report.JPG)
 
