@@ -100,6 +100,10 @@ VALUES ('abc', 'def', 'abc@abc.com', '12345');
 
 
 ## Demo
+#### Landing Page
+
+![App Screenshot](https://github.com/Saad-1963/Bright-Boost/blob/9049d94a08815c5f1dc639fb36c8b382bf8271ce/index.JPG)
+
 #### User Registration
 Register a new customer account by providing your name, Surname, email address and password.
 
